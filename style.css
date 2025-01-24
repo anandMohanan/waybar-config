@@ -2,8 +2,9 @@
     border: none;
     border-radius: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     min-height: 0;
+    font-family: "Cantarell";
 }
 
 window#waybar {
@@ -31,8 +32,8 @@ tooltip label{
 }
 
 #workspaces button.active {
-    color: #77c;
-    border-radius: 10px;
+    color: #000000;
+    background-color: #f6f7fc;
 }
 
 #workspaces button:hover {
